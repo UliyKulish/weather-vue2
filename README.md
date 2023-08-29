@@ -1,4 +1,4 @@
-# wether
+# weather
 
 ## Project setup
 ```
