@@ -1,0 +1,7 @@
+.home {
+    height: 100vh;
+    background-image: radial-gradient(circle at 0% 0%, #d271ff 0, #925bff 25%, #4d42d4 50%, #002aa1 75%, #001674 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
