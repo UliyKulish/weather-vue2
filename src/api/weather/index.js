@@ -7,7 +7,7 @@ export default {
       const res = await axios.get(`?q=${city}&units=${UNITS}&appid=${API_KEY}`);
       return res?.data;
     } catch (e) {
-      console.log(e);
+      throw new Error(e);
     }
   },
 };
